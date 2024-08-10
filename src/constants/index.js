@@ -1,7 +1,7 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-// import project4 from "../assets/projects/project-4.jpg";
+import project1 from "../assets/projects/1.png";
+import project2 from "../assets/projects/2.png";
+import project3 from "../assets/projects/web-svelte.jpg";
+import project4 from "../assets/projects/web-react.jpg";
 
 export const HERO_CONTENT = `As a passionate Full Stack Developer, I specialize in building robust, scalable, and efficient web applications. With expertise in front-end technologies like Vue.js, Quasar, and Tailwind CSS, combined with back-end experience in Laravel. I bring creative solutions to complex challenges. This portfolio website, created in React, showcases my versatility and ability to work with various frameworks. My journey as a developer is driven by a constant desire to learn and adapt to new technologies, ensuring that I deliver modern, high-quality software that meets user needs and business goals. Explore my portfolio to see how I turn ideas into reality.`;
 
@@ -47,8 +47,15 @@ export const PROJECTS = [
     technologies: ["Vue.js", "Quasar", "Capacitor"],
   },
   {
-    title: "Portfolio Website",
+    title: "Portfolio Website (Svelte, Tailwind CSS)",
     image: project3,
+    description:
+      "A personal portfolio website showcasing projects, skills, and contact information.",
+    technologies: [ "Svelte", "Tailwind CSS"],
+  },
+  {
+    title: "Portfolio Website (React.js, Tailwind CSS) ",
+    image: project4,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: [ "React", "Tailwind CSS"],
@@ -56,7 +63,7 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "Negros Ocidental, Philippines",
+  address: "Philippines",
   phoneNo: "0900 - 000 - 0000",
   email: "ronilgchurch712@gmail.com",
 };
