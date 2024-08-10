@@ -9,10 +9,13 @@ const Navbar = () => {
             <img src={logo} alt="" className="w-12 h-12 rounded-full object-cover mr-2" />
         </div>
         <div className="m-8 flex items-center justify-center gap-4 text-2xl text-white">
-            <FaLinkedin />
+            <a href="https://www.linkedin.com/in/ronil-lim-4190762a0/" target="_blank" rel="noopener noreferrer">
+                <FaLinkedin />
+            </a>
+            
             <a href="https://github.com/RoronoaZX/ReactjsTailwind" target="_blank" rel="noopener noreferrer">
-                    <FaGithub />
-                </a>
+                <FaGithub />
+            </a>
         </div>
     </nav>
 }
