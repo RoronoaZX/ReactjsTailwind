@@ -37,14 +37,14 @@ export const PROJECTS = [
     image: project1,
     description:
       "A fully functional Mobile and Desktop App that is an all-in-one solution designed to streamline and optimize store operations. Combining powerful inventory management with a comprehensive Human Resources Information System (HRIS), SIMS provides everything you need to efficiently manage your store's resources. The inventory module offers real-time tracking, automated stock updates, and detailed analytics to help you maintain optimal stock levels and reduce waste. Meanwhile, the HRIS module simplifies employee management with features like attendance tracking, payroll processing, and performance monitoring. With SIMS, you can ensure smooth operations, improve productivity, and make data-driven decisions to grow your business.",
-    technologies: ["Vue.js", "Quasar Framework", "Capacitor Framework", "Electron Framework"],
+    technologies: ["Vue.js", "Quasar", "Capacitor", "Electron"],
   },
   {
     title: "ROTC E-Manual",
     image: project2,
     description:
       "A comprehensive digital resource designed to support cadets and instructors in the Reserve Officers' Training Corps (ROTC). This app provides quick and easy access to essential military manuals, training guides, and instructional materials, all in one convenient platform. With user-friendly navigation, search functionality, and offline access, the ROTC E-Manual ensures that vital information is always at your fingertips, whether you're in the field or in the classroom. Stay prepared and informed with this indispensable tool for ROTC training and education.",
-    technologies: ["Vue.js", "Quasar Framework", "Capacitor Framework"],
+    technologies: ["Vue.js", "Quasar", "Capacitor"],
   },
   {
     title: "Portfolio Website",
