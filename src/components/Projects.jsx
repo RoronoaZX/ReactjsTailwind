@@ -32,7 +32,11 @@ const Projects = () => {
             transition={{duration: 1}}
             className="mb-4 text-neutral-400">{project.description}</motion.p>
             {project.technologies.map((tech, index) => (
-                <span key={index} className="mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-indigo-400">{tech}</span>
+                <motion.span
+                whileInView={{opacity: 1, x: 0}}
+                initial={{opacity: 1, x: -100}}
+                transition={{duration: 1}}
+                key={index} className="mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-indigo-400">{tech}</motion.span>
             ))}
         </div>
         </div>
